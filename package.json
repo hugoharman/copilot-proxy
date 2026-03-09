@@ -1,0 +1,16 @@
+{
+  "name": "copilot-proxy",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible API proxy using GitHub Copilot tokens — uses your Copilot subscription to access Claude models",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "login": "node src/login.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "express": "^4.21.2"
+  }
+}
